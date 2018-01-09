@@ -38,4 +38,5 @@ finding_nemo = media.Movie("Finding Nemo",
 
 movies = [caddyshack, happy_gilmore, gladiator, shawshank_redemption, lion_king, finding_nemo]
 
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+print(media.Movie.__doc__)
