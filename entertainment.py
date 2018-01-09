@@ -12,7 +12,7 @@ happy_gilmore = media.Movie("Happy Gilmore",
                             "https://upload.wikimedia.org/wikipedia/en/b/be/Happygilmoreposter.jpg",
                             "https://www.youtube.com/watch?v=y1emDAYCfVQ")
 
-butch_cassidy = media.Movie("Butch Cassidy and the Sundance Kid",
+butch_cassidy = media.Movie("Butch Cassidy",
                             "Two Western bank/train robbers flee to Bolivia when the law gets too close.",
                             "https://upload.wikimedia.org/wikipedia/en/f/fd/Butch_sundance_poster.jpg",
                             "https://www.youtube.com/watch?v=YdJW2UxvSFQ")
@@ -43,6 +43,6 @@ lion_king = media.Movie("The Lion King",
                         "https://www.youtube.com/watch?v=4sj1MT05lAA")
 
 
-movies = [butch_cassidy, back_to_the_future, happy_gilmore, gladiator, shawshank_redemption, lion_king]
+movies = [butch_cassidy, back_to_the_future, happy_gilmore, gladiator, shawshank_redemption, lion_king, caddyshack]
 
 fresh_tomatoes.open_movies_page(movies)
