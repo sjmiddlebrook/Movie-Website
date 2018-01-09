@@ -1,3 +1,4 @@
+import fresh_tomatoes
 import media
 
 caddyshack = media.Movie("Caddyshack",
@@ -14,12 +15,27 @@ happy_gilmore = media.Movie("Happy Gilmore",
 gladiator = media.Movie("Gladiator",
                         "When a Roman General is betrayed, and his family murdered by an emperor's corrupt son, "
                         "he comes to Rome as a gladiator to seek revenge.",
-                        "https://en.wikipedia.org/wiki/Gladiator_(2000_film)#/media/File:Gladiator_ver1.jpg",
+                        "https://upload.wikimedia.org/wikipedia/en/8/8d/Gladiator_ver1.jpg",
                         "https://www.youtube.com/watch?v=owK1qxDselE")
 
 shawshank_redemption = media.Movie("Shawshank Redemption",
                                    "Two imprisoned men bond over a number of years, finding solace and eventual "
                                    "redemption through acts of common decency.",
-                                   "https://en.wikipedia.org/wiki/The_Shawshank_Redemption#/media/File"
-                                   ":ShawshankRedemptionMoviePoster.jpg", 
+                                   "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
                                    "https://www.youtube.com/watch?v=6hB3S9bIaco")
+
+lion_king = media.Movie("The Lion King",
+                        "Lion cub and future king Simba searches for his identity. His eagerness to please others and "
+                        "penchant for testing his boundaries sometimes gets him into trouble.",
+                        "https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg",
+                        "https://www.youtube.com/watch?v=4sj1MT05lAA")
+
+finding_nemo = media.Movie("Finding Nemo",
+                           "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid "
+                           "clownfish sets out on a journey to bring him home.",
+                           "https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg",
+                           "https://www.youtube.com/watch?v=wZdpNglLbt8")
+
+movies = [caddyshack, happy_gilmore, gladiator, shawshank_redemption, lion_king, finding_nemo]
+
+fresh_tomatoes.open_movies_page(movies)
