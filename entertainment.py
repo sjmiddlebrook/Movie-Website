@@ -12,6 +12,18 @@ happy_gilmore = media.Movie("Happy Gilmore",
                             "https://upload.wikimedia.org/wikipedia/en/b/be/Happygilmoreposter.jpg",
                             "https://www.youtube.com/watch?v=y1emDAYCfVQ")
 
+butch_cassidy = media.Movie("Butch Cassidy and the Sundance Kid",
+                            "Two Western bank/train robbers flee to Bolivia when the law gets too close.",
+                            "https://upload.wikimedia.org/wikipedia/en/f/fd/Butch_sundance_poster.jpg",
+                            "https://www.youtube.com/watch?v=YdJW2UxvSFQ")
+
+back_to_the_future = media.Movie("Back to the Future",
+                                 "Marty McFly, a 17-year-old high school student, is accidentally sent thirty years "
+                                 "into the past in a time-traveling DeLorean invented by his close friend, "
+                                 "the maverick scientist Doc Brown.",
+                                 "https://upload.wikimedia.org/wikipedia/en/d/d2/Back_to_the_Future.jpg",
+                                 "https://www.youtube.com/watch?v=qvsgGtivCgs")
+
 gladiator = media.Movie("Gladiator",
                         "When a Roman General is betrayed, and his family murdered by an emperor's corrupt son, "
                         "he comes to Rome as a gladiator to seek revenge.",
@@ -30,12 +42,7 @@ lion_king = media.Movie("The Lion King",
                         "https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg",
                         "https://www.youtube.com/watch?v=4sj1MT05lAA")
 
-finding_nemo = media.Movie("Finding Nemo",
-                           "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid "
-                           "clownfish sets out on a journey to bring him home.",
-                           "https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg",
-                           "https://www.youtube.com/watch?v=wZdpNglLbt8")
 
-movies = [caddyshack, happy_gilmore, gladiator, shawshank_redemption, lion_king, finding_nemo]
+movies = [butch_cassidy, back_to_the_future, happy_gilmore, gladiator, shawshank_redemption, lion_king]
 
 fresh_tomatoes.open_movies_page(movies)
