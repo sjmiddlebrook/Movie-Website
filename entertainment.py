@@ -11,3 +11,4 @@ happy_gilmore = media.Movie("Happy Gilmore",
                             "https://upload.wikimedia.org/wikipedia/en/b/be/Happygilmoreposter.jpg",
                             "https://www.youtube.com/watch?v=y1emDAYCfVQ")
 
+caddyshack.show_trailer()
