@@ -42,7 +42,6 @@ lion_king = media.Movie("The Lion King",
                         "https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg",
                         "https://www.youtube.com/watch?v=4sj1MT05lAA")
 
-
 movies = [butch_cassidy, back_to_the_future, happy_gilmore, gladiator, shawshank_redemption, lion_king, caddyshack]
 
 fresh_tomatoes.open_movies_page(movies)
